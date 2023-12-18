@@ -5,14 +5,18 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    print: './src/print.js',
   },
- devtool: 'inline-source-map',
+ devtool: 'source-map',
+//  devtool: false,
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Development',
     }),
   ],
+  // optimization: {
+  //   mangleExports: true,
+  //   minimize: true, 
+  // },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
