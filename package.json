@@ -1,0 +1,8 @@
+{
+  "name": "source-map-handson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jjm2317/source-map-handson.git",
+  "author": "jjm2317 <wlaks2317@gmail.com>",
+  "license": "MIT"
+}
