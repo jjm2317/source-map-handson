@@ -3,6 +3,6 @@ const testObject = {};
 
 export default function printMe() {
 
-  testObject()
+  console.log(123);testObject()
   cosnole.log('I get called from print.js!');
 }

@@ -1,3 +1,4 @@
+import { testText } from './test.js';
 
 function getComponent() {
 
@@ -23,8 +24,10 @@ getComponent().then((component) => {
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = fn;
     component.appendChild(btn)
+    console.log(testText)
   })
 
   document.body.appendChild(component);
 
 });
+
